@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Prestolnice</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Prestolnice!</h1>
+
+    <br>
+    <br>
+
+    <div id="vsebina">
+        <div class="okno">
+            <p>glavno mesto {{ lj.drzava }} </p>
+            <img src="{{ lj.slika }}">
+
+            <br>
+
+            <form action="/" method="post">
+                <input name="odgovor1" type="text">
+                <button type="submit">Odgovori</button>
+            </form>
+            {% if picture1 %}
+            <img src="{{ picture1 }}">
+            {% endif %}
+
+        </div>
+        <div class="okno">
+            <p>glavno mesto {{ dam.drzava }} </p>
+            <img src="{{ dam.slika }}">
+
+            <br>
+
+            <form action="/" method="post">
+                <input name="odgovor2" type="text">
+                <button type="submit">Odgovori</button>
+            </form>
+            {% if picture2 %}
+            <img src="{{ picture2 }}">
+            {% endif %}
+        </div>
+        <div class="okno">
+            <p>glavno mesto {{ kamp.drzava }} </p>
+            <img src="{{ kamp.slika }}">
+
+            <br>
+
+            <form action="/" method="post">
+                <input name="odgovor3" type="text">
+                <button type="submit">Odgovori</button>
+            </form>
+            {% if picture3 %}
+            <img src="{{ picture3 }}">
+            {% endif %}
+        </div>
+        <div class="okno">
+            <p>glavno mesto {{ fun.drzava }} </p>
+            <img src="{{ fun.slika }}">
+
+            <br>
+
+            <form action="/" method="post">
+                <input name="odgovor4" type="text">
+                <button type="submit">Odgovori</button>
+            </form>
+            {% if picture4 %}
+            <img src="{{ picture4 }}">
+            {% endif %}
+
+        </div>
+    </div>
+
+
+</body>
+</html>

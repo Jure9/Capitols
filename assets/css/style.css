@@ -1,0 +1,39 @@
+h1
+{
+    text-align: center;
+}
+p
+{
+    float: left;
+}
+img
+{
+    height:120px;
+    width:160px;
+    padding-bottom:10px;
+    float:left;
+}
+input
+{
+    float:left;
+}
+
+#vsebina
+{
+    padding: 20px;
+    width: 980px;
+    height: 220px;
+    margin: 0 auto;
+}
+.okno
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+button
+{
+    float: left;
+}
